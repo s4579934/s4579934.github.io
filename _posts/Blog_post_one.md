@@ -3,3 +3,20 @@ Hi everyone!
 I'm currently running a dog or cat identifier that I've created from editing the given "bird or not" file.
 
 I'll update this post with results below:
+
+I've edited the following code from : /workspaces/course22/00-is-it-a-bird-creating-a-model-from-your-own-data.ipynb
+
+is_dog,_,probs_dog = learn.predict(PILImage.create("cat.jpg"))
+if probs_dog[1] >= 0.9:
+    print(f"This is a: {is_dog}.")
+else:
+    print(f"This is a: cat.")
+print(f"Probability it's a dog: {probs_dog[1]:.4f}")
+Image.open("dog.jpg").to_thumb(256,256)
+
+With the output being:
+
+This is a: cat.
+Probability it's a dog: 0.0000
+
+![alt text](https://github.com/s4579934/s4579934.github.io/blob/images/dog.jpg?raw=true)
