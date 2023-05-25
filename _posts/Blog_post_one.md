@@ -19,4 +19,4 @@ With the output being:
 This is a: cat.
 Probability it's a dog: 0.0000
 
-!(../images/dog.jpg)
+![dog](../images/dog.jpg)
