@@ -19,4 +19,4 @@ With the output being:
 This is a: cat.
 Probability it's a dog: 0.0000
 
-![alt text](https://github.com/s4579934/s4579934.github.io/blob/images/dog.jpg?raw=true)
+((../images/dog.jpg))
